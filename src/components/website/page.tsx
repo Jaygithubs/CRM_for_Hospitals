@@ -1,12 +1,9 @@
-import Navbar from '@/components/website/Navbar';
 import Hero from '@/components/website/Hero';
 import Services from '@/components/website/Services';
-import Footer from '@/components/website/Footer';
 
 export default function HomePage() {
   return (
     <div>
-      <Navbar />
       <Hero />
       <Services />
       
@@ -56,7 +53,6 @@ export default function HomePage() {
           </a>
         </div>
       </div>
-      <Footer />
     </div>
   );
 }
